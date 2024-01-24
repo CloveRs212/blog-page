@@ -15,7 +15,10 @@ function App() {
         </main>
       } />
       <Route path={'/login'} element={
-        <div>login</div>
+        <main>
+          <Header />
+          <div>login Page</div>
+        </main>
       }
       />
     </Routes>
